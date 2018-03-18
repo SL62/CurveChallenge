@@ -1,0 +1,6 @@
+framework module Pods_curve_challengeTests {
+  umbrella header "Pods-curve-challengeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
