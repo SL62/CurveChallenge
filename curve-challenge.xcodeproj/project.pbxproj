@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C235E79205EEA6D0055AAE1 /* simple_loader_purple.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C235E78205EEA6D0055AAE1 /* simple_loader_purple.json */; };
 		0C4C960C205D5F060021245F /* PopularMovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4C960B205D5F060021245F /* PopularMovieCollectionViewCell.swift */; };
 		0C4C960F205D66060021245F /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4C960E205D66060021245F /* UIStoryboard.swift */; };
 		0C4C9611205D66B80021245F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4C9610205D66B80021245F /* UIView.swift */; };
@@ -21,7 +22,6 @@
 		0C4C9626205DA9C50021245F /* FavouriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4C9625205DA9C50021245F /* FavouriteButton.swift */; };
 		0C4C9628205DCED80021245F /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4C9627205DCED80021245F /* UIFont.swift */; };
 		0C4C962C205DD7320021245F /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4C962B205DD7320021245F /* UICollectionView.swift */; };
-		0C4C962E205DE28E0021245F /* simple_loader_purple.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C4C962D205DE28D0021245F /* simple_loader_purple.json */; };
 		0C796B7C205C470E00C9DD61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C796B7B205C470E00C9DD61 /* AppDelegate.swift */; };
 		0C796B7E205C470E00C9DD61 /* PopularMoviesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C796B7D205C470E00C9DD61 /* PopularMoviesVC.swift */; };
 		0C796B81205C470E00C9DD61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C796B7F205C470E00C9DD61 /* Main.storyboard */; };
@@ -53,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C235E78205EEA6D0055AAE1 /* simple_loader_purple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple_loader_purple.json; sourceTree = "<group>"; };
 		0C4C960B205D5F060021245F /* PopularMovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		0C4C960E205D66060021245F /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 		0C4C9610205D66B80021245F /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
@@ -67,7 +68,6 @@
 		0C4C9625205DA9C50021245F /* FavouriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteButton.swift; sourceTree = "<group>"; };
 		0C4C9627205DCED80021245F /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		0C4C962B205DD7320021245F /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
-		0C4C962D205DE28D0021245F /* simple_loader_purple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = simple_loader_purple.json; path = Pods/simple_loader_purple.json; sourceTree = SOURCE_ROOT; };
 		0C796B78205C470E00C9DD61 /* curve-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "curve-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C796B7B205C470E00C9DD61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C796B7D205C470E00C9DD61 /* PopularMoviesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesVC.swift; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 				0C796BAB205C4AC900C9DD61 /* Views */,
 				0C796BA9205C4AAD00C9DD61 /* ViewControllers */,
 				0C796B82205C470E00C9DD61 /* Assets.xcassets */,
-				0C4C962D205DE28D0021245F /* simple_loader_purple.json */,
+				0C235E78205EEA6D0055AAE1 /* simple_loader_purple.json */,
 				0C796B87205C470E00C9DD61 /* Info.plist */,
 			);
 			path = "curve-challenge";
@@ -409,7 +409,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C4C962E205DE28E0021245F /* simple_loader_purple.json in Resources */,
+				0C235E79205EEA6D0055AAE1 /* simple_loader_purple.json in Resources */,
 				0C796B86205C470E00C9DD61 /* LaunchScreen.storyboard in Resources */,
 				0C796B83205C470E00C9DD61 /* Assets.xcassets in Resources */,
 				0C796B81205C470E00C9DD61 /* Main.storyboard in Resources */,
